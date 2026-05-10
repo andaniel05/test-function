@@ -1,0 +1,16 @@
+{
+    "name": "andaniel05/test-function",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Andaniel05\\TestFunction\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andy Navarro",
+            "email": "andaniel05@gmail.com"
+        }
+    ],
+    "require": {}
+}

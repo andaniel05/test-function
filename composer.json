@@ -1,10 +1,11 @@
 {
     "name": "andaniel05/test-function",
+    "description": "Custom wrapper for the test function of PestPHP based on andaniel05/undescribed-tests",
     "license": "MIT",
     "autoload": {
-        "psr-4": {
-            "Andaniel05\\TestFunction\\": "src/"
-        }
+        "files": [
+            "src/test-function.php"
+        ]
     },
     "authors": [
         {
@@ -12,5 +13,12 @@
             "email": "andaniel05@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "andaniel05/undescribed-tests": "dev-main"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
 }

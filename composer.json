@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "andaniel05/undescribed-tests": "dev-main"
+        "andaniel05/undescribed-tests": ">=1.0.0"
     },
     "config": {
         "allow-plugins": {

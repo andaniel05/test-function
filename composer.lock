@@ -4,26 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f2495ac728c9d28251f4c2a766f70bc",
+    "content-hash": "d3b06cabc7b30ef255482d8102148be8",
     "packages": [
         {
             "name": "andaniel05/undescribed-tests",
-            "version": "dev-main",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/andaniel05/undescribed-tests.git",
-                "reference": "aa1abc19f7a99b495e27a719f33ec47b26e3b859"
+                "reference": "2f7df4e82a4c254659d7c2496a8a57607fd97ca4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andaniel05/undescribed-tests/zipball/aa1abc19f7a99b495e27a719f33ec47b26e3b859",
-                "reference": "aa1abc19f7a99b495e27a719f33ec47b26e3b859",
+                "url": "https://api.github.com/repos/andaniel05/undescribed-tests/zipball/2f7df4e82a4c254659d7c2496a8a57607fd97ca4",
+                "reference": "2f7df4e82a4c254659d7c2496a8a57607fd97ca4",
                 "shasum": ""
             },
             "require": {
                 "pestphp/pest": "^4.7"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -43,9 +42,9 @@
             "description": "Allow the creation of tests with Pest omitting the description",
             "support": {
                 "issues": "https://github.com/andaniel05/undescribed-tests/issues",
-                "source": "https://github.com/andaniel05/undescribed-tests/tree/main"
+                "source": "https://github.com/andaniel05/undescribed-tests/tree/v1.0.0"
             },
-            "time": "2026-05-10T14:08:41+00:00"
+            "time": "2026-05-10T15:21:57+00:00"
         },
         {
             "name": "brianium/paratest",
@@ -4077,9 +4076,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "andaniel05/undescribed-tests": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
